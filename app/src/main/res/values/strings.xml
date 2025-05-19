@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Billiárdasztal Foglalás</string>
+    <string name="jelszo">Jelszó... (min. 6 karakter)</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="pelda_mail">valaki@gmail.com...</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="szoveg1">Billiárd asztal foglalás</string>
+    <string name="szoveg">Jelentkezz be az asztalfoglaláshoz!</string>
+    <string name="teljes_nev">Teljes név</string>
+    <string name="jelszo_megerosites">Jelszó megerősítése...</string>
+    <string name="regisztralas">Regisztrálás</string>
+    <string name="megse">Mégse</string>
+    <string name="bej_google_acc">Bejelentkezés Google fiókkal</string>
+    <string name="bej_vendeg">Időpontok és asztalok megtekintése</string>
+    <string name="telefonszam">Mobiltelenfonszám...</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="asztal">asztal</string>
+    <string name="megjegyzes">Megjegyzés (opcionális)</string>
+    <string name="beallitasok">Beállítások</string>
+    <string name="foglalas_beallitasok">Asztal Foglalási Beállítások</string>
+    <string name="crud_leiras">Az alábbi beállítások segítségével hozhat létre, olvashat, frissíthet és törölhet asztal foglalási adatokat (CRUD műveletel). A műveletekhez az adatbázisban tárolt egyedi azonosító (kulcs) a neve lesz az asztalnak.</string>
+    <string name="asztal_pelda">Asztal neve (pl. Asztal 2)</string>
+    <string name="idopont_pelda">Időpont (pl. 2025.Március 18. 22:00 - 23:00 között)</string>
+    <string name="letrehozas">Létrehozás</string>
+    <string name="kiiras">Kiíratás</string>
+    <string name="frissites">Frissítés</string>
+    <string name="torles">Törlés</string>
+    <string name="vissza">Vissza</string>
+    <string name="list_of_items">List of items</string>
+    <string name="helyzet">Helyzet:\n</string>
+    <string name="lefoglal">Lefoglal</string>
+    <string name="_1_asztal">1. asztal</string>
+    <string name="pelda_idopont">Időpont: 2025.Március 18. 18:00 - 20:00 között</string>
+    <string name="pelda_leiras">1 órás foglalás: 3000 Ft</string>
+
+    <string-array name="foglalas_AsztalNev">
+        <item>Asztal 1.</item>
+        //4-5
+        <item>Asztal 1.</item>
+        //5-6
+        <item>Asztal 1.</item>
+        //6-7
+        <item>Asztal 1.</item>
+        //7-8
+        <item>Asztal 1.</item>
+        //8-9
+        <item>Asztal 1.</item>
+        //9-10
+        <item>Asztal 1.</item>
+        //10-11
+        <item>Asztal 2.</item>
+        //4-5
+        <item>Asztal 2.</item>
+        //5-6
+        <item>Asztal 2.</item>
+        //6-7
+        <item>Asztal 2.</item>
+        //7-8
+        <item>Asztal 2.</item>
+        //8-9
+        <item>Asztal 2.</item>
+        //9-10
+        <item>Asztal 2.</item>
+        //10-11
+    </string-array>
+
+    <string-array name="foglalas_FoglalasiIdopont">
+        <item>Időpont: 2025.Március 18. 16:00 - 17:00 között</item>
+        //4-5
+        <item>Időpont: 2025.Március 18. 17:00 - 18:00 között</item>
+        //5-6
+        <item>Időpont: 2025.Március 18. 18:00 - 19:00 között</item>
+        //6-7
+        <item>Időpont: 2025.Március 18. 19:00 - 20:00 között</item>
+        //7-8
+        <item>Időpont: 2025.Március 18. 20:00 - 21:00 között</item>
+        //8-9
+        <item>Időpont: 2025.Március 18. 21:00 - 22:00 között</item>
+        //9-10
+        <item>Időpont: 2025.Március 18. 22:00 - 23:00 között</item>
+        //10-11
+        <item>Időpont: 2025.Március 18. 16:00 - 17:00 között</item>
+        //4-5
+        <item>Időpont: 2025.Március 18. 17:00 - 18:00 között</item>
+        //5-6
+        <item>Időpont: 2025.Március 18. 18:00 - 19:00 között</item>
+        //6-7
+        <item>Időpont: 2025.Március 18. 19:00 - 20:00 között</item>
+        //7-8
+        <item>Időpont: 2025.Március 18. 20:00 - 21:00 között</item>
+        //8-9
+        <item>Időpont: 2025.Március 18. 21:00 - 22:00 között</item>
+        //9-10
+        <item>Időpont: 2025.Március 18. 22:00 - 23:00 között</item>
+    </string-array>
+
+</resources>

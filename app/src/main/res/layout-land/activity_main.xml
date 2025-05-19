@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/szovegTextView"
+        android:layout_width="371dp"
+        android:layout_height="41dp"
+        android:text="@string/szoveg"
+        android:textColor="@android:color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <TextView
+        android:id="@+id/szoveg1TextView"
+        android:layout_width="387dp"
+        android:layout_height="37dp"
+        android:text="@string/szoveg1"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:background="@drawable/login_button"
+        android:text="@string/bejelentkezes"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toTopOf="@+id/loginGoogleAccButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839"
+        android:onClick="login"/>
+
+    <Button
+        android:id="@+id/loginGoogleAccButton"
+        android:layout_width="326dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/login_button"
+        android:text="@string/bej_google_acc"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="loginWithGoogle"/>
+
+    <Button
+        android:id="@+id/loginGuest"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:background="@drawable/login_button"
+        android:text="@string/bej_vendeg"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginGoogleAccButton"
+        app:layout_constraintVertical_bias="0.716"
+        android:onClick="loginAsGuest"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_edittext"
+        android:drawableStart="@drawable/custome_email_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/pelda_mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/input_edittext"
+        android:drawableStart="@drawable/custome_lock_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/jelszo"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/szovegTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="211dp"
+        android:layout_height="54dp"
+        android:background="@drawable/login_button"
+        android:onClick="register"
+        android:text="@string/regisztracio"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

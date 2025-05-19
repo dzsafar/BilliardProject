@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911815332892",
+    "project_id": "billiardfoglalas",
+    "storage_bucket": "billiardfoglalas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911815332892:android:04083dffeea09eb1a6fbd9",
+        "android_client_info": {
+          "package_name": "com.example.billiardproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911815332892-a5ljnuu7io5k0h96elhbg7rjqiqreven.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.billiardproject",
+            "certificate_hash": "12e20bcbc7f62c823325a289137c078593118efa"
+          }
+        },
+        {
+          "client_id": "911815332892-ccctqa1ntmr1l4k74c3mmkgn2p37kmvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpP29xOJqYxVJCeETXcsS3dlivRRc6BMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911815332892-ccctqa1ntmr1l4k74c3mmkgn2p37kmvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

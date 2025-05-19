@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foglalas_beallitasok"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crud_leiras"
+        android:textSize="16sp"
+        android:textColor="#EEEEEE"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextAsztal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:hint="@string/asztal_pelda"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextIdopont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/idopont_pelda"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+        <Button
+            android:id="@+id/buttonLetrehoz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/letrehozas"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/buttonOlvas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/kiiras"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+        <Button
+            android:id="@+id/buttonFrissit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/frissites"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/buttonTorol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/torles"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVissza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vissza"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/textViewEredmeny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

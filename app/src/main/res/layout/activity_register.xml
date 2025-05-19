@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="@string/regisztracio"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="110dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_edittext"
+            android:drawableStart="@drawable/costume_person_icon"
+            android:drawablePadding="12dp"
+            android:hint="@string/teljes_nev"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_edittext"
+            android:drawableStart="@drawable/custome_email_icon"
+            android:drawablePadding="12dp"
+            android:hint="@string/pelda_mail"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_edittext"
+            android:drawableStart="@drawable/custome_lock_icon"
+            android:drawablePadding="12dp"
+            android:hint="@string/jelszo"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPasswordAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/input_edittext"
+            android:drawableStart="@drawable/custome_lock_icon"
+            android:drawablePadding="12dp"
+            android:hint="@string/jelszo_megerosites"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_edittext"
+            android:drawableStart="@drawable/costume_phone_icon"
+            android:drawablePadding="12dp"
+            android:hint="@string/telefonszam"
+            android:inputType="phone"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regisztralas"
+            android:textAllCaps="false"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textColor="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="register"/>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/megse"
+            android:textAllCaps="false"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textColor="#FFFFFF"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="cancel"/>
+
+    </LinearLayout>
+</ScrollView>
